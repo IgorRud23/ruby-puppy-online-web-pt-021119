@@ -10,7 +10,8 @@ def initialize(name)
 end
 
 def self.all
-puts @@all 
+@@all.each do |pappy|
+  puts pappy.name 
 end
 
 def self.clear_all
